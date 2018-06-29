@@ -2,8 +2,8 @@
 
 var fs = require('fs');
 var dirName = process.argv[2];
-if (fs.existsSync("./" + dirName)) { //ÅĞ¶ÏÄ¿Â¼ÊÇ·ñ´æÔÚ
-    console.log('Ä¿Â¼ÒÑ´æÔÚ');
+if (fs.existsSync("./" + dirName)) { //åˆ¤æ–­ç›®å½•æ˜¯å¦å­˜åœ¨
+    console.log('å·²å­˜åœ¨');
     process.exit(1);
 }
 fs.mkdirSync("./" + dirName); // mkdir $1
